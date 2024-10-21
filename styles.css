@@ -2,7 +2,7 @@
 
 #hero {
   height: 800px;
-  background-image: url('https://paimayang.com/wp-content/uploads/2020/01/BKK-1536x998.jpg');
+  background-image: url("https://paimayang.com/wp-content/uploads/2020/01/BKK-1536x998.jpg");
   background-position: center;
 }
 
@@ -18,7 +18,7 @@
 }
 
 #hero-content h1 {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: "Raleway", "sans-serif";
   font-size: 50px;
   color: #fff;
   text-transform: uppercase;
@@ -50,7 +50,11 @@
 
 #highlights {
   padding: 24px;
-  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(115, 239, 231));
+  background: linear-gradient(
+    0deg,
+    rgb(227, 255, 253),
+    rgb(115, 239, 231)
+  );
 }
 
 #highlights h2 {
@@ -98,7 +102,7 @@
 @media only screen and (max-width: 768px) {
   #hero {
     height: 540px;
-    background-image: url('https://paimayang.com/wp-content/uploads/2020/01/BKK-1536x998.jpg');
+    background-image: url("https://paimayang.com/wp-content/uploads/2020/01/BKK-1536x998.jpg");
   }
 
   #hero-content {

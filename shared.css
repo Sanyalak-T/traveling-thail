@@ -1,7 +1,7 @@
 /** @format */
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin: 0;
 }
 
@@ -24,8 +24,8 @@ header {
 }
 
 #page-logo a {
-  padding: 10px;
-  font-family: 'Oleo Script', 'sans-serif';
+  padding: 5px;
+  font-family: "Oleo Script", "sans-serif";
   color: rgb(9, 100, 134);
   font-size: 50px;
   text-decoration: none;
@@ -45,7 +45,7 @@ header a {
   color: rgb(9, 100, 134);
   text-decoration: none;
   font-size: 20px;
-  padding: 12px;
+  padding: 8px;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   border-radius: 6px;
 }
@@ -56,7 +56,11 @@ header a:hover {
 }
 
 footer {
-  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+  background: linear-gradient(
+    70deg,
+    rgb(24, 24, 24),
+    rgb(25, 29, 29)
+  );
   padding: 34px 0;
 }
 footer ul {
@@ -74,6 +78,28 @@ footer li {
 footer img {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 500px) {
+  header a {
+    color: rgb(9, 100, 134);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    border-radius: 3px;
+  }
+
+  #hero-content a {
+    text-decoration: none;
+    background-color: rgb(9, 100, 134);
+    padding: 8px 16px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(68, 67, 67);
+  }
 }
 
 @media only screen and (max-width: 768px) {
