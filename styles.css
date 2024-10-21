@@ -1,0 +1,150 @@
+/** @format */
+
+#hero {
+  height: 800px;
+  background-image: url('https://paimayang.com/wp-content/uploads/2020/01/BKK-1536x998.jpg');
+  background-position: center;
+}
+
+#hero-content {
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+
+#hero-content h1 {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#hero-content p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-size: 300;
+  margin-bottom: 32px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(9, 100, 134);
+  padding: 12px 24px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+  background-color: rgb(9, 145, 134);
+}
+
+#highlights {
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(115, 239, 231));
+}
+
+#highlights h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(59, 65, 64);
+}
+
+#destinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.destination {
+  margin: 0 20px;
+}
+
+.destination img {
+  height: 250px;
+  width: 100%;
+  box-shadow: 2px 2px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destination p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+  margin: 20px 0;
+}
+
+.destination a {
+  text-decoration: none;
+}
+
+.destination strong {
+  color: rgb(0, 160, 117);
+}
+
+@media only screen and (max-width: 768px) {
+  #hero {
+    height: 540px;
+    background-image: url('https://paimayang.com/wp-content/uploads/2020/01/BKK-1536x998.jpg');
+  }
+
+  #hero-content {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  #hero-content h1 {
+    font-size: 30px;
+  }
+
+  #hero-content p {
+    font-size: 20px;
+  }
+
+  #hero-content a {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  #highlights {
+    padding: 18px;
+  }
+
+  #highlights h2 {
+    font-size: 20px;
+  }
+
+  #destinations {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .destination {
+    margin: 0 10px;
+  }
+
+  .destination img {
+    height: 200px;
+  }
+
+  .destination p {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(124, 123, 123);
+    margin: 10px 0 20px 0;
+  }
+}
